@@ -13,3 +13,13 @@ def checkList(arr, k):
     return False
 print(checkList([13, 12, 25, 5, 8], 13))
 
+'''
+Explanation:
+
+    My solution was to first take each element of the array and subtracting the value of k to it,
+if the resulting value was in the original list, I then added this new value to the element of the
+array, if this addition was equal to the value of k, then it meant that the solution was True.
+
+    Of course this only works if the given list is all positive numbers since I am using an absolute
+function to calculate the subtraction.
+'''
